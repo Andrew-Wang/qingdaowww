@@ -132,7 +132,7 @@ function imediapixel_add_stylesheet() {
 <?php 
 }
 
-add_action('wp_head', 'imediapixel_add_stylesheet');
+add_action('wp_print_styles', 'imediapixel_add_stylesheet');
 
 
 /* Register Nav Menu Features For Wordpress 3.0 */

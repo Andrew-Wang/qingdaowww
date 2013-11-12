@@ -30,16 +30,8 @@
           ?>
 
           <!-- Portfolio Detail Content -->
-          <div class="portfolio-blockimg">
-            <div class="portfolio-imgbox1">
-              <div class="zoom">
-                <?php if (function_exists('has_post_thumbnail') && has_post_thumbnail()) {?>
-                  <a href="<?php echo ($pf_link) ? $pf_link : thumb_url();?>" rel="prettyPhoto"><img src="<?php echo get_template_directory_uri();?>/timthumb.php?src=<?php echo thumb_url();?>&amp;h=182&amp;w=424&amp;zc=1" class="boximg-pad2 fade" alt="" /></a>
-                <?php } ?>
-              </div>
-            </div>
-          </div>
-          <div class="portfolio-content1">
+
+          <div class="case_details">
             <h3><?php the_title();?></h3>
             <?php the_content();?>
             <?php $portfolio_visitsite = get_option('ecobiz_portfolio_visitsite');?>

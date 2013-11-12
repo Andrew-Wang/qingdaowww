@@ -991,6 +991,9 @@ ul.portfolio-4col-filterable li p {
   float: right;
   margin-left: 10px;
 }
+.case_details {
+    margin-left: 10px;
+}
 .zoom {
   background: url(images/zoom.png) 50% 50% no-repeat;
 }
